@@ -1,3 +1,37 @@
+//variables for images
+let capture;
+let tracker;
+let tiger;
+
+let cameraImage = true;
+//video variables
+let w = 640;
+let h = 480;
+  let sceneNum=0;
+  let starArray = [];
+  let spaceMusic;
+  let textMoveButton;
+  let comfirmButton;
+  let pressedContinue;
+  let changeText = 0;
+  let hyperSpaceReady = false;
+//  let plutoMenu;
+  let choice;
+  let aggressive = false;
+  let practical = false;
+  let friendly = false;
+  let eMenu;
+  let musLooped = false;
+  let spaceFont;
+  let showCam = false;
+  let currentlyShowing = false;
+  let optionSelected;
+  let showComfirmButton = false;
+
+  let flippedVideo;
+
+
+
 class SpaceStar{
   constructor(xVal, yVal, rad1, rad2, numPoints)
   {

@@ -1,0 +1,8 @@
+if(!plutoMenu){
+  plutoMenu = createSelect();
+  plutoMenu.style("z-index", "1");
+  plutoMenu.position(windowWidth/2, 200);
+  plutoMenu.option("Buy mostly food and supples...");
+  plutoMenu.option("Buy arms and defense mods....");
+  plutoMenu.option("Buy spare parts for the ship....");
+}
